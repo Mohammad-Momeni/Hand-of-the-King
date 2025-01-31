@@ -800,6 +800,7 @@ def main(args):
                 # If the move is None, change the turn
                 if move is None:
                     turn = 2
+                    continue
         
         else:
             # Check if the player is human or AI
@@ -814,6 +815,7 @@ def main(args):
                 # If the move is None, change the turn
                 if move is None:
                     turn = 1
+                    continue
         
         # If the move is companion card
         if choose_companion:
